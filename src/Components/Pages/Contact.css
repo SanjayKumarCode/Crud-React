@@ -1,0 +1,26 @@
+ .Contact_page {
+    font-size: 4.20875rem;
+    line-height: 1.2;
+    white-space: pre-line;
+    text-align: left;
+    color: rgb(11, 53, 88);
+    font-weight: 700;
+    margin-bottom: 32px;
+ }
+ .exampleInputEmail1,.form-text,.form-check-input,.form-check-label {
+    /* margin-top: 50px; */
+    display: flex; 
+    padding-right: 10px;
+    margin-top: 5px;
+    /* color: #C84545; */
+    font-size: 14px;
+    white-space: normal;  
+ }
+ .form-group {
+    text-align: left;
+ }
+ .btn {
+
+   
+    text-align: left;
+ }
