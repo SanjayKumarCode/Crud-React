@@ -15,6 +15,7 @@ const AddUser = () => {
     });
   
     const { name, username, email, phone, website } = user;
+    
     const onInputChange = e => {
       setUser({ ...user, [e.target.name]: e.target.value });
     };
@@ -32,7 +33,7 @@ const AddUser = () => {
         <form onSubmit={e => onSubmit(e)}>
           <div className="form-group">
             <input
-              type="text"
+              type="text" 
               className="form-control form-control-lg"
               placeholder="Enter Your Name"
               name="name"

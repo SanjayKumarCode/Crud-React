@@ -6,8 +6,8 @@ import { BrowserRouter as Router, Routes, Route, } from 'react-router-dom';
 import Navbar from './Components/Layout/Navbar';
 
 import Home from './Components/Pages/Home';
-import Contact from './Components/Pages/Contact';
-import About from './Components/Pages/About';
+
+import LoginPage from "./Components/Pages/LoginPage";
 import NotFound from './Components/Pages/NotFound';
 
 import AddUser from "./Components/Users/AddUser";
@@ -20,15 +20,14 @@ function App() {
 <Navbar/>
     <Routes>
     <Route path="/" element={<Home/>} exact />
-    <Route path="/contact" element={<Contact/>}  />
-     <Route path="/about" element={<About/>}  />
+    
+     <Route path="/login" element={<LoginPage/>}  />
     <Route path="/*" element={<NotFound />} />
     <Route  path="/users/add" element={<AddUser/>} />
     <Route path="/users/edit/:id" element={<EditUser/>} />
     <Route  path="/users/:id" element={<User/>} />
     </Routes>
       </Router>
-     
    
       
     </div>

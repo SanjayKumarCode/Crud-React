@@ -12,12 +12,9 @@ const Navbar = () => {
     <li>Home</li>
     </Link>
      
-    <Link to="/contact" className="contact">
-    <li>Contact</li>
-    </Link>
         
-    <Link to="/about" className="about">
-    <li>About</li>
+    <Link to="/login" className="login">
+    <li>Login Page</li>
     </Link>
 
     <Link className="btn btn-outline-light" to="/users/add">Add User</Link>

@@ -21,10 +21,7 @@
     width: 75%;
 }
 .home,
-
-.contact,
-.about,
-.signup{
+.login{
     text-decoration: none;
     color: white;
     font-size: 20px;
